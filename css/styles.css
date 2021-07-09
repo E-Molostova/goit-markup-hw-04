@@ -470,6 +470,19 @@ ul {
   background-color: var(--accent-color);
 }
 
+.footer-contacts {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-color);
+}
+
 /* Button */
 
 .button {
