@@ -105,6 +105,12 @@ ul {
   display: flex;
 }
 
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .site-contacts .contacts-item + .contacts-item {
   margin-left: 50px;
 }
@@ -446,6 +452,7 @@ ul {
   align-items: center;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
 }
 
 .footer-center-item + .footer-center-item {
